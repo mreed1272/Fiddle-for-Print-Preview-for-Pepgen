@@ -1,0 +1,2185 @@
+{
+    "Elements": {
+        "C": {
+            "name": "Carbon",
+            "mono": 12,
+            "avg": 12.01073589676
+        },
+        "iC": {
+            "name": "Carbon-13",
+            "mono": 13.00335483,
+            "avg": 13.00335483
+        },
+        "^13C": {
+            "name": "Carbon-13",
+            "mono": 13.00335483,
+            "avg": 13.00335483
+        },
+        "H": {
+            "name": "Hydrogen",
+            "mono": 1.0078250321,
+            "avg": 1.00794075393
+        },
+        "iH": {
+            "name": "Deuterium",
+            "mono": 2.014101779,
+            "avg": 2.014101779
+        },
+        "^2H": {
+            "name": "Deuterium",
+            "mono": 2.014101779,
+            "avg": 2.014101779
+        },
+        "Li": {
+            "name": "Lithium",
+            "mono": 7.016004,
+            "avg": 6.94003707897
+        },
+        "N": {
+            "name": "Nitrogen",
+            "mono": 14.0030740052,
+            "avg": 14.00674309361
+        },
+        "iN": {
+            "name": "Nitrogen-15",
+            "mono": 15.00010897,
+            "avg": 15.00010897
+        },
+        "^15N": {
+            "name": "Nitrogen-15",
+            "mono": 15.00010897,
+            "avg": 15.00010897
+        },
+        "O": {
+            "name": "Oxygen",
+            "mono": 15.9949146221,
+            "avg": 15.99940492836
+        },
+        "iO": {
+            "name": "Oxygen-18",
+            "mono": 17.9991603,
+            "avg": 17.9991603
+        },
+        "^18O": {
+            "name": "Oxygen-18",
+            "mono": 17.9991603,
+            "avg": 17.9991603
+        },
+        "S": {
+            "name": "Sulfur",
+            "mono": 31.97207069,
+            "avg": 32.0660846938
+        },
+        "P": {
+            "name": "Phosphorus",
+            "mono": 30.97376151,
+            "avg": 30.97376151
+        },
+        "F": {
+            "name": "Fluorine",
+            "mono": 18.9984032,
+            "avg": 18.9984032
+        },
+        "Cl": {
+            "name": "Chlorine",
+            "mono": 34.96885271,
+            "avg": 35.45253819336
+        },
+        "Br": {
+            "name": "Bromine",
+            "mono": 78.9183376,
+            "avg": 79.90352842154
+        },
+        "I": {
+            "name": "Iodine",
+            "mono": 126.904468,
+            "avg": 126.904468
+        },
+        "Cr": {
+            "name": "Chromium",
+            "mono": 51.9405119,
+            "avg": 51.99613751643
+        },
+        "Si": {
+            "name": "Silicon",
+            "mono": 27.9769265327,
+            "avg": 28.0853847599
+        },
+        "Fe": {
+            "name": "Iron",
+            "mono": 55.9349421,
+            "avg": 55.84515000896
+        },
+        "Na": {
+            "name": "Sodium",
+            "mono": 22.98976967,
+            "avg": 22.98976967
+        },
+        "K": {
+            "name": "Potassium",
+            "mono": 38.9637069,
+            "avg": 39.09830134379
+        },
+        "Ca": {
+            "name": "Calcium",
+            "mono": 39.9625912,
+            "avg": 40.07802285281
+        },
+        "Ni": {
+            "name": "Nickel",
+            "mono": 57.9353479,
+            "avg": 58.69335628562
+        },
+        "Zn": {
+            "name": "Zinc",
+            "mono": 63.9291466,
+            "avg": 65.39556656568
+        },
+        "Se": {
+            "name": "Selenium",
+            "mono": 79.9165218,
+            "avg": 78.95938873002
+        },
+        "Ag": {
+            "name": "Silver",
+            "mono": 106.905093,
+            "avg": 107.86815069743
+        },
+        "Hg": {
+            "name": "Mercury",
+            "mono": 201.970626,
+            "avg": 200.5991493631
+        },
+        "Au": {
+            "name": "Gold",
+            "mono": 196.966552,
+            "avg": 196.966552
+        },
+        "Mo": {
+            "name": "Molybdenum",
+            "mono": 97.9054078,
+            "avg": 95.93129155706
+        },
+        "Cu": {
+            "name": "Copper",
+            "mono": 62.9296011,
+            "avg": 63.54564387858
+        },
+        "B": {
+            "name": "Boron",
+            "mono": 11.0093055,
+            "avg": 10.8110281685
+        },
+        "As": {
+            "name": "Arsenic",
+            "mono": 74.9215964,
+            "avg": 74.9215964
+        },
+        "Cd": {
+            "name": "Cadmium",
+            "mono": 113.9033581,
+            "avg": 112.41155273307
+        },
+        "Co": {
+            "name": "Cobalt",
+            "mono": 58.9332002,
+            "avg": 58.9332002
+        },
+        "Mn": {
+            "name": "Manganese",
+            "mono": 54.9380496,
+            "avg": 54.9380496
+        },
+        "Mg": {
+            "name": "Magnesium",
+            "mono": 23.9850419,
+            "avg": 24.30505179251
+        },
+        "Pd": {
+            "name": "Palladium",
+            "mono": 105.903483,
+            "avg": 106.4153280285
+        },
+        "Ru": {
+            "name": "Ruthenium",
+            "mono": 101.9043493,
+            "avg": 101.064945
+        }
+    },
+    "AAcids": {
+        "A": {
+            "C": 3,
+            "H": 5,
+            "N": 1,
+            "O": 1
+        },
+        "R": {
+            "C": 6,
+            "H": 12,
+            "N": 4,
+            "O": 1
+        },
+        "N": {
+            "C": 4,
+            "H": 6,
+            "N": 2,
+            "O": 2
+        },
+        "D": {
+            "C": 4,
+            "H": 5,
+            "N": 1,
+            "O": 3
+        },
+        "C": {
+            "C": 3,
+            "H": 5,
+            "N": 1,
+            "O": 1,
+            "S": 1
+        },
+        "E": {
+            "C": 5,
+            "H": 7,
+            "N": 1,
+            "O": 3
+        },
+        "Q": {
+            "C": 5,
+            "H": 8,
+            "N": 2,
+            "O": 2
+        },
+        "G": {
+            "C": 2,
+            "H": 3,
+            "N": 1,
+            "O": 1
+        },
+        "H": {
+            "C": 6,
+            "H": 7,
+            "N": 3,
+            "O": 1
+        },
+        "I": {
+            "C": 6,
+            "H": 11,
+            "N": 1,
+            "O": 1
+        },
+        "L": {
+            "C": 6,
+            "H": 11,
+            "N": 1,
+            "O": 1
+        },
+        "K": {
+            "C": 6,
+            "H": 12,
+            "N": 2,
+            "O": 1
+        },
+        "M": {
+            "C": 5,
+            "H": 9,
+            "N": 1,
+            "O": 1,
+            "S": 1
+        },
+        "F": {
+            "C": 9,
+            "H": 9,
+            "N": 1,
+            "O": 1
+        },
+        "P": {
+            "C": 5,
+            "H": 7,
+            "N": 1,
+            "O": 1
+        },
+        "S": {
+            "C": 3,
+            "H": 5,
+            "N": 1,
+            "O": 2
+        },
+        "T": {
+            "C": 4,
+            "H": 7,
+            "N": 1,
+            "O": 2
+        },
+        "W": {
+            "C": 11,
+            "H": 10,
+            "N": 2,
+            "O": 1
+        },
+        "Y": {
+            "C": 9,
+            "H": 9,
+            "N": 1,
+            "O": 2
+        },
+        "V": {
+            "C": 5,
+            "H": 9,
+            "N": 1,
+            "O": 1
+        },
+        "B": {
+            "C": 0,
+            "H": 0,
+            "N": 0,
+            "O": 0
+        },
+        "J": {
+            "C": 0,
+            "H": 0,
+            "N": 0,
+            "O": 0
+        },
+        "O": {
+            "C": 0,
+            "H": 0,
+            "N": 0,
+            "O": 0
+        },
+        "U": {
+            "C": 0,
+            "H": 0,
+            "N": 0,
+            "O": 0
+        },
+        "Z": {
+            "C": 0,
+            "H": 0,
+            "N": 0,
+            "O": 0
+        },
+        "X": {
+            "C": 0,
+            "H": 0,
+            "N": 0,
+            "O": 0
+        }
+    },
+    "NtermMod": {
+        "free": {
+            "value": "free",
+            "text": "free",
+            "hidden": false,
+            "formula": {
+                "H": 1
+            }
+        },
+        "acetyl": {
+            "value": "acetyl",
+            "text": "acetyl",
+            "hidden": false,
+            "formula": {
+                "C": 2,
+                "H": 3,
+                "O": 1
+            }
+        },
+        "biotin_BAla": {
+            "value": "biotin_BAla",
+            "text": "Biotin plus beta-alanine spacer",
+            "hidden": false,
+            "formula": {
+                "C": 13,
+                "H": 20,
+                "N": 3,
+                "O": 3,
+                "S": 1
+            }
+        },
+        "biotin": {
+            "value": "biotin",
+            "text": "biotin",
+            "hidden": false,
+            "formula": {
+                "C": 10,
+                "H": 15,
+                "N": 2,
+                "O": 2,
+                "S": 1
+            }
+        },
+        "carboxyfluoroscein": {
+            "value": "carboxyfluoroscein",
+            "text": "carboxyfluoroscein",
+            "hidden": false,
+            "formula": {
+                "C": 21,
+                "H": 11,
+                "O": 1
+            }
+        },
+        "TAMRA": {
+            "value": "TAMRA",
+            "text": "TAMRA (carboxytetramethylrhodamine)",
+            "hidden": false,
+            "formula": {
+                "C": 25,
+                "H": 21,
+                "N": 2,
+                "O": 4
+            }
+        },
+        "boc": {
+            "value": "boc",
+            "text": "BOC",
+            "hidden": false,
+            "formula": {
+                "C": 5,
+                "H": 9,
+                "O": 2
+            }
+        },
+        "fmoc": {
+            "value": "fmoc",
+            "text": "FMOC",
+            "hidden": false,
+            "formula": {
+                "C": 15,
+                "H": 11,
+                "O": 2
+            }
+        },
+        "biotin_aca": {
+            "value": "biotin_aca",
+            "text": "biotin with aminocaprioic acid spacer",
+            "hidden": false,
+            "formula": {
+                "C": 16,
+                "H": 26,
+                "N": 3,
+                "O": 3,
+                "S": 1
+            }
+        },
+        "myr": {
+            "value": "myr",
+            "text": "myristoyl",
+            "hidden": false,
+            "formula": {
+                "C": 14,
+                "H": 27,
+                "O": 1
+            }
+        },
+        "succinyl": {
+            "value": "succinyl",
+            "text": "succinyl",
+            "hidden": false,
+            "formula": {
+                "C": 4,
+                "H": 4,
+                "O": 2
+            }
+        },        
+        "N_user": {
+            "value": "N_user",
+            "text": "User defined N-terminus",
+            "hidden": true,
+            "formula": {
+                "C": 0,
+                "H": 0,
+                "N": 0,
+                "O": 0
+            }
+        }
+    },
+    "CtermMod": {
+        "free": {
+            "value": "free",
+            "text": "free",
+            "hidden": false,
+            "formula": {
+                "H": 1,
+                "O": 1
+            }
+        },
+        "amide": {
+            "value": "amide",
+            "text": "amide",
+            "hidden": false,
+            "formula": {
+                "H": 2,
+                "N": 1
+            }
+        },
+        "methyl_ester": {
+            "value": "methyl_ester",
+            "text": "methyl ester",
+            "hidden": false,
+            "formula": {
+                "C": 1,
+                "H": 3,
+                "O": 1
+            }
+        },
+        "4_MAPS": {
+            "value": "4_MAPS",
+            "text": "MAPS, 4-branch core",
+            "hidden": false,
+            "formula": {
+                "C": 21,
+                "H": 39,
+                "N": 7,
+                "O": 5
+            }
+        },
+        "8_MAPS": {
+            "value": "8_MAPS",
+            "text": "MAPS, 8-branch core",
+            "hidden": false,
+            "formula": {
+                "C": 45,
+                "H": 83,
+                "N": 15,
+                "O": 9
+            }
+        },        
+        "C_user": {
+            "value": "C_user",
+            "text": "User defined C-terminus",
+            "hidden": true,
+            "formula": {
+                "C": 0,
+                "H": 0,
+                "N": 0,
+                "O": 0
+            }
+        }
+    },
+    "modifiedAA": {
+        "Cys-CM": {
+            "value": "Cys-CM",
+            "text": "carboxymethylated cysteine [Cys(CM)]",
+            "hidden": false,
+            "formula": {
+                "C": 5,
+                "H": 7,
+                "N": 1,
+                "O": 3,
+                "S": 1
+            }
+        },
+        "Cys-CAM": {
+            "value": "Cys-CAM",
+            "text": "carboxyamidomethylated cysteine [Cys(CAM)]",
+            "hidden": false,
+            "formula": {
+                "C": 5,
+                "H": 8,
+                "N": 2,
+                "O": 2,
+                "S": 1
+            }
+        },
+        "Cys-ACM": {
+            "value": "Cys-ACM",
+            "text": "acetamidomethyl cysteine [Cys(ACM)]",
+            "hidden": false,
+            "formula": {
+                "C": 6,
+                "H": 10,
+                "N": 2,
+                "O": 2,
+                "S": 1
+            }
+        },
+        "Cys-PyrEth": {
+            "value": "Cys-PyrEth",
+            "text": "pyridylethyl cysteine",
+            "hidden": false,
+            "formula": {
+                "C": 10,
+                "H": 12,
+                "N": 2,
+                "O": 1,
+                "S": 1
+            }
+        },
+        "pSer": {
+            "value": "pSer",
+            "text": "phosphoserine",
+            "hidden": false,
+            "formula": {
+                "C": 3,
+                "H": 6,
+                "N": 1,
+                "O": 5,
+                "P": 1
+            }
+        },
+        "pThr": {
+            "value": "pThr",
+            "text": "phosphothreonine",
+            "hidden": false,
+            "formula": {
+                "C": 4,
+                "H": 8,
+                "N": 1,
+                "O": 5,
+                "P": 1
+            }
+        },
+        "pTyr": {
+            "value": "pTyr",
+            "text": "phosphotyrosine",
+            "hidden": false,
+            "formula": {
+                "C": 9,
+                "H": 10,
+                "N": 1,
+                "O": 5,
+                "P": 1
+            }
+        },
+        "met_O": {
+            "value": "met_O",
+            "text": "methionine sulfoxide [Met(Ox)]",
+            "hidden": false,
+            "formula": {
+                "C": 5,
+                "H": 9,
+                "N": 1,
+                "O": 2,
+                "S": 1
+            }
+        },
+        "Nle": {
+            "value": "Nle",
+            "text": "norleucine",
+            "hidden": false,
+            "formula": {
+                "C": 6,
+                "H": 11,
+                "N": 1,
+                "O": 1
+            }
+        },
+        "Orn": {
+            "value": "Orn",
+            "text": "ornithine",
+            "hidden": false,
+            "formula": {
+                "C": 5,
+                "H": 10,
+                "N": 2,
+                "O": 1
+            }
+        },
+        "Nap-Ala": {
+            "value": "Nap-Ala",
+            "text": "napthyl-alanine",
+            "hidden": false,
+            "formula": {
+                "C": 13,
+                "H": 11,
+                "N": 1,
+                "O": 1
+            }
+        },
+        "pyroGlu": {
+            "value": "pyroGlu",
+            "text": "pyroglutamic acid",
+            "hidden": false,
+            "formula": {
+                "C": 5,
+                "H": 5,
+                "N": 1,
+                "O": 2
+            }
+        },
+        "Lys-biotin": {
+            "value": "Lys-biotin",
+            "text": "Lysine(Biotin)",
+            "hidden": false,
+            "formula": {
+                "C": 16,
+                "H": 26,
+                "N": 4,
+                "O": 3,
+                "S": 1
+            }
+        },
+        "Cit": {
+            "value": "Cit",
+            "text": "citrulline",
+            "hidden": false,
+            "formula": {
+                "C": 6,
+                "H": 11,
+                "N": 3,
+                "O": 2
+            }
+        },
+        "Hse": {
+            "value": "Hse",
+            "text": "homoserine",
+            "hidden": false,
+            "formula": {
+                "C": 4,
+                "H": 7,
+                "N": 1,
+                "O": 2
+            }
+        },
+        "Hse-lac": {
+            "value": "Hse-lac",
+            "text": "homoserine lactone",
+            "hidden": false,
+            "formula": {
+                "C": 4,
+                "H": 6,
+                "N": 1,
+                "O": 2
+            }
+        },
+        "homoCys": {
+            "value": "homoCys",
+            "text": "homocysteine",
+            "hidden": false,
+            "formula": {
+                "C": 4,
+                "H": 7,
+                "N": 1,
+                "O": 1,
+                "S": 1
+            }
+        },
+        "homoArg": {
+            "value": "homoArg",
+            "text": "homoarginine",
+            "hidden": false,
+            "formula": {
+                "C": 7,
+                "H": 14,
+                "N": 4,
+                "O": 1
+            }
+        },
+        "Abu": {
+            "value": "Abu",
+            "text": "2-aminobutyric acid",
+            "hidden": false,
+            "formula": {
+                "C": 4,
+                "H": 7,
+                "N": 1,
+                "O": 1
+            }
+        },
+        "mPEG": {
+            "value": "mPEG",
+            "text": "mPEG",
+            "hidden": false,
+            "formula": {
+                "C": 6,
+                "H": 11,
+                "N": 1,
+                "O": 3
+            }
+        },
+        "Aca": {
+            "value": "Aca",
+            "text": "Aminocaproic acid (amino-hexanoic acid)",
+            "hidden": false,
+            "formula": {
+                "C": 6,
+                "H": 11,
+                "N": 1,
+                "O": 1
+            }
+        },
+        "hLys": {
+            "value": "hLys",
+            "text": "U-13C6, U-15N2 Lysine (heavy lysine)",
+            "hidden": false,
+            "formula": {
+                "^13C": 6,
+                "H": 12,
+                "^15N": 2,
+                "O": 1
+            }
+        },
+        "hArg": {
+            "value": "hArg",
+            "text": "U-13C6, U-15N4 Arginine (heavy arginine)",
+            "hidden": false,
+            "formula": {
+                "^13C": 6,
+                "H": 12,
+                "^15N": 4,
+                "O": 1
+            }
+        },
+        "PNA-A": {
+            "value": "PNA-A",
+            "text": "A (PNA)",
+            "hidden": false,
+            "formula": {
+                "C": 11,
+                "H": 13,
+                "N": 7,
+                "O": 2
+            }
+        },
+        "PNA-T": {
+            "value": "PNA-T",
+            "text": "T (PNA)",
+            "hidden": false,
+            "formula": {
+                "C": 11,
+                "H": 14,
+                "N": 4,
+                "O": 4
+            }
+        },
+        "PNA-C": {
+            "value": "PNA-C",
+            "text": "C (PNA)",
+            "hidden": false,
+            "formula": {
+                "C": 10,
+                "H": 13,
+                "N": 5,
+                "O": 3
+            }
+        },
+        "PNA-G": {
+            "value": "PNA-G",
+            "text": "G (PNA)",
+            "hidden": false,
+            "formula": {
+                "C": 11,
+                "H": 13,
+                "N": 7,
+                "O": 3
+            }
+        },
+        "3Me-Lys": {
+            "value": "3Me-Lys",
+            "text": "N-trimethyl-lysine",
+            "hidden": false,
+            "formula": {
+                "C": 9,
+                "H": 19,
+                "N": 2,
+                "O": 1
+            }
+        },
+        "2Me-Lys": {
+            "value": "2Me-Lys",
+            "text": "N-dimethyl-lysine",
+            "hidden": false,
+            "formula": {
+                "C": 8,
+                "H": 16,
+                "N": 2,
+                "O": 1
+            }
+        },
+        "Ac-Lys": {
+            "value": "Ac-Lys",
+            "text": "N-acetyl-lysine",
+            "hidden": false,
+            "formula": {
+                "C": 8,
+                "H": 14,
+                "N": 2,
+                "O": 2
+            }
+        },
+        "Arg-PMC": {
+            "value": "Arg-PMC",
+            "text": "Arginine(PMC)",
+            "hidden": false,
+            "formula": {
+                "C": 20,
+                "H": 29,
+                "N": 4,
+                "O": 4,
+                "S": 1
+            }
+        },
+        "2Me-Arg": {
+            "value": "2Me-Arg",
+            "text": "dimethyl-arginine",
+            "hidden": false,
+            "formula": {
+                "C": 8,
+                "H": 16,
+                "N": 5,
+                "O": 1
+            }
+        },
+        "B_user": {
+            "value": "B_user",
+            "text": "User defined B amino acid",
+            "hidden": true,
+            "formula": {
+                "C": 0,
+                "H": 0,
+                "N": 0,
+                "O": 0
+            }
+        },
+        "J_user": {
+            "value": "J_user",
+            "text": "User defined J amino acid",
+            "hidden": true,
+            "formula": {
+                "C": 0,
+                "H": 0,
+                "N": 0,
+                "O": 0
+            }
+        },
+        "O_user": {
+            "value": "O_user",
+            "text": "User defined O amino acid",
+            "hidden": true,
+            "formula": {
+                "C": 0,
+                "H": 0,
+                "N": 0,
+                "O": 0
+            }
+        },
+        "U_user": {
+            "value": "U_user",
+            "text": "User defined U amino acid",
+            "hidden": true,
+            "formula": {
+                "C": 0,
+                "H": 0,
+                "N": 0,
+                "O": 0
+            }
+        },
+        "X_user": {
+            "value": "X_user",
+            "text": "User defined X amino acid",
+            "hidden": true,
+            "formula": {
+                "C": 0,
+                "H": 0,
+                "N": 0,
+                "O": 0
+            }
+        },
+        "Z_user": {
+            "value": "Z_user",
+            "text": "User defined Z amino acid",
+            "hidden": true,
+            "formula": {
+                "C": 0,
+                "H": 0,
+                "N": 0,
+                "O": 0
+            }
+        }
+    },
+    "oligoBases": {
+        "A": {
+            "dna": {
+                "C": 10,
+                "H": 12,
+                "O": 5,
+                "N": 5,
+                "P": 1
+            },
+            "rna": {
+                "C": 10,
+                "H": 12,
+                "O": 6,
+                "N": 5,
+                "P": 1
+            }
+        },
+        "C": {
+            "dna": {
+                "C": 9,
+                "H": 12,
+                "O": 6,
+                "N": 3,
+                "P": 1
+            },
+            "rna": {
+                "C": 9,
+                "H": 12,
+                "O": 7,
+                "N": 3,
+                "P": 1
+            }
+        },
+        "G": {
+            "dna": {
+                "C": 10,
+                "H": 12,
+                "O": 6,
+                "N": 5,
+                "P": 1
+            },
+            "rna": {
+                "C": 10,
+                "H": 12,
+                "O": 7,
+                "N": 5,
+                "P": 1
+            }
+        },
+        "T": {
+            "dna": {
+                "C": 10,
+                "H": 13,
+                "O": 7,
+                "N": 2,
+                "P": 1
+            },
+            "rna": {}
+        },
+        "U": {
+            "dna": {
+                "C": 9,
+                "H": 11,
+                "O": 7,
+                "N": 2,
+                "P": 1
+            },
+            "rna": {
+                "C": 9,
+                "H": 11,
+                "O": 8,
+                "N": 2,
+                "P": 1
+            }
+        },
+        "I": {
+            "dna": {
+                "C": 10,
+                "H": 11,
+                "O": 6,
+                "N": 4,
+                "P": 1
+            },
+            "rna": {
+                "C": 10,
+                "H": 11,
+                "O": 7,
+                "N": 4,
+                "P": 1
+            }
+        },
+        "*": {
+            "dna": {
+                "S": 1,
+                "O": -1
+            },
+            "rna": {
+                "S": 1,
+                "O": -1
+            }
+        },
+        "E": {
+            "dna": {},
+            "rna": {}
+        },
+        "F": {
+            "dna": {},
+            "rna": {}
+        },
+        "J": {
+            "dna": {},
+            "rna": {}
+        },
+        "L": {
+            "dna": {},
+            "rna": {}
+        },
+        "P": {
+            "dna": {},
+            "rna": {}
+        }
+    },
+    "oligoDegen": {
+        "W": [
+            "A",
+            "T"
+        ],
+        "S": [
+            "C",
+            "G"
+        ],
+        "M": [
+            "A",
+            "C"
+        ],
+        "K": [
+            "G",
+            "T"
+        ],
+        "R": [
+            "A",
+            "G"
+        ],
+        "Y": [
+            "C",
+            "T"
+        ],
+        "B": [
+            "C",
+            "G",
+            "T"
+        ],
+        "D": [
+            "A",
+            "G",
+            "T"
+        ],
+        "H": [
+            "A",
+            "C",
+            "T"
+        ],
+        "V": [
+            "A",
+            "C",
+            "G"
+        ],
+        "N": [
+            "A",
+            "C",
+            "G",
+            "T"
+        ]
+    },
+    "nucMods": {
+        "AP-dC": {
+            "value": "AP-dC",
+            "text": "AP-dC",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 17,
+                    "H": 19,
+                    "N": 4,
+                    "O": 8,
+                    "P": 1
+                },
+                "rna": {
+                    "C": 17,
+                    "H": 19,
+                    "N": 4,
+                    "O": 9,
+                    "P": 1
+                }
+            }
+        },
+        "pdC": {
+            "value": "pdC",
+            "text": "pdC",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 12,
+                    "H": 14,
+                    "N": 3,
+                    "O": 6,
+                    "P": 1
+                },
+                "rna": {
+                    "C": 12,
+                    "H": 14,
+                    "N": 3,
+                    "O": 6,
+                    "P": 1
+                }
+            }
+        },
+        "pdU": {
+            "value": "pdU",
+            "text": "pdU",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 12,
+                    "H": 13,
+                    "N": 2,
+                    "O": 7,
+                    "P": 1
+                },
+                "rna": {
+                    "C": 12,
+                    "H": 13,
+                    "N": 2,
+                    "O": 7,
+                    "P": 1
+                }
+            }
+        },
+        "CA-dA": {
+            "value": "CA-dA",
+            "text": "CleanAmp-dA",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 24,
+                    "H": 38,
+                    "N": 5,
+                    "O": 6,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "CA-dC": {
+            "value": "CA-dC",
+            "text": "CleanAmp-dC",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 23,
+                    "H": 38,
+                    "N": 3,
+                    "O": 7,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "CA-dG": {
+            "value": "CA-dG",
+            "text": "CleanAmp-dG",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 24,
+                    "H": 38,
+                    "N": 3,
+                    "O": 7,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "CA-dT": {
+            "value": "CA-dT",
+            "text": "CleanAmp-dT",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 24,
+                    "H": 39,
+                    "N": 2,
+                    "O": 8,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "BHQ1dT": {
+            "value": "BHQ1dT",
+            "text": "Black Hole Quencher 1 dT",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 44,
+                    "H": 54,
+                    "N": 10,
+                    "O": 13,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "BHQ2dT": {
+            "value": "BHQ2dT",
+            "text": "Black Hole Quencher 2 dT",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 43,
+                    "H": 49,
+                    "N": 10,
+                    "O": 14,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "ZEN": {
+            "value": "ZEN",
+            "text": "IDT ZEN internal quencher",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 20,
+                    "H": 19,
+                    "N": 4,
+                    "O": 6,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "TAO": {
+            "value": "TAO",
+            "text": "IDT TAO internal quencher (guess)",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 21,
+                    "H": 31,
+                    "N": 7,
+                    "O": 6,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "LNA-A": {
+            "value": "LNA-A",
+            "text": "Locked Nucleic Acid - A",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 11,
+                    "H": 12,
+                    "O": 6,
+                    "N": 5,
+                    "P": 1
+                },
+                "rna": {
+                    "C": 11,
+                    "H": 12,
+                    "O": 6,
+                    "N": 5,
+                    "P": 1
+                }
+            }
+        },
+        "LNA-C": {
+            "value": "LNA-C",
+            "text": "Locked Nucleic Acid - C",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 10,
+                    "H": 12,
+                    "O": 7,
+                    "N": 3,
+                    "P": 1
+                },
+                "rna": {
+                    "C": 10,
+                    "H": 12,
+                    "O": 7,
+                    "N": 3,
+                    "P": 1
+                }
+            }
+        },
+        "LNA-G": {
+            "value": "LNA-G",
+            "text": "Locked Nucleic Acid - G",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 11,
+                    "H": 12,
+                    "O": 7,
+                    "N": 5,
+                    "P": 1
+                },
+                "rna": {
+                    "C": 11,
+                    "H": 12,
+                    "O": 7,
+                    "N": 5,
+                    "P": 1
+                }
+            }
+        },
+        "LNA-T": {
+            "value": "LNA-T",
+            "text": "Locked Nucleic Acid - T",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 11,
+                    "H": 13,
+                    "O": 8,
+                    "N": 2,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "NHdT": {
+            "value": "NHdT",
+            "text": "Amino link with C6 spacer dT",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 18,
+                    "H": 27,
+                    "N": 4,
+                    "O": 8,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "SpC12": {
+            "value": "SpC12",
+            "text": "Internal C12 spacer",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 12,
+                    "H": 25,
+                    "O": 4,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "SpC9": {
+            "value": "SpC9",
+            "text": "Internal C9 spacer",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 9,
+                    "H": 19,
+                    "O": 4,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "dspacer": {
+            "value": "dspacer",
+            "text": "Internal C9 spacer",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 5,
+                    "H": 9,
+                    "O": 5,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "dK": {
+            "value": "dK",
+            "text": "dK purine degenerate base (pairs with C or T)",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 11,
+                    "H": 15,
+                    "O": 6,
+                    "N": 6,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "dP": {
+            "value": "dP",
+            "text": "dP pyrimidine degenerate base (pairs with A or G)",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 11,
+                    "H": 13,
+                    "O": 7,
+                    "N": 3,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "dP+dK": {
+            "value": "dP+dk",
+            "text": "dP+dK degenerate base mix (no mass added)",
+            "hidden": false,
+            "formula": {
+                "dna": {},
+                "rna": {}
+            }
+        },
+        "Biotin-dT": {
+            "value": "Biotin-dT",
+            "text": "Biotin with C6 spacer dT",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 28,
+                    "H": 41,
+                    "N": 6,
+                    "O": 10,
+                    "P": 1,
+                    "S": 1
+                },
+                "rna": {}
+            }
+        },
+        "Alkyne-dC": {
+            "value": "Alkyne-dC",
+            "text": "Alkyne C8 dC (5-Octadiynyl-dC)",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 17,
+                    "H": 20,
+                    "N": 3,
+                    "O": 6,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "Ethynyl-dU": {
+            "value": "Ethynyl-dU",
+            "text": "5-Ethynyl-dU (Alkyne 5EdU)",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 11,
+                    "H": 11,
+                    "N": 2,
+                    "O": 7,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        },
+        "FAMdT": {
+            "value": "FAMdT",
+            "text": "Fluorescein dT with C6 spacer (Fam dT)",
+            "hidden": false,
+            "formula": {
+                "dna": {
+                    "C": 39,
+                    "H": 36,
+                    "N": 4,
+                    "O": 14,
+                    "P": 1
+                },
+                "rna": {}
+            }
+        }
+    },
+    "FprimeMods": {
+        "HO": {
+            "value": "HO",
+            "text": "HO",
+            "hidden": false,
+            "formula": {
+                "H": 1
+            }
+        },
+        "phosphate": {
+            "value": "phosphate",
+            "text": "phosphate",
+            "hidden": false,
+            "formula": {
+                "P": 1,
+                "O": 3,
+                "H": 1
+            }
+        },
+        "Q670": {
+            "value": "Q670",
+            "text": "Quasar 670 with amino link",
+            "hidden": false,
+            "formula": {
+                "C": 39,
+                "H": 54,
+                "N": 3,
+                "O": 4,
+                "P": 1
+            }
+        },
+        "Q570": {
+            "value": "Q570",
+            "text": "Quasar 570 Amidite (LGC Biosearch)",
+            "hidden": false,
+            "formula": {
+                "C": 35,
+                "H": 46,
+                "N": 3,
+                "O": 5,
+                "P": 1
+            }
+        },
+        "Q705": {
+            "value": "Q705",
+            "text": "Quasar 705 Amidite (LGC Biosearch)",
+            "hidden": false,
+            "formula": {
+                "C": 45,
+                "H": 53,
+                "N": 3,
+                "O": 5,
+                "P": 1
+            }
+        },
+        "5FAM": {
+            "value": "5FAM",
+            "text": "5' FAM",
+            "hidden": false,
+            "formula": {
+                "C": 27,
+                "H": 25,
+                "N": 1,
+                "O": 9,
+                "P": 1
+            }
+        },
+        "5HEX": {
+            "value": "5HEX",
+            "text": "5' HEX",
+            "hidden": false,
+            "formula": {
+                "C": 27,
+                "H": 19,
+                "N": 1,
+                "O": 9,
+                "Cl": 6,
+                "P": 1
+            }
+        },
+        "CR610": {
+            "value": "CR610",
+            "text": "CalRed 610",
+            "hidden": false,
+            "formula": {
+                "C": 37,
+                "H": 39,
+                "N": 3,
+                "O": 5,
+                "P": 1
+            }
+        },
+        "5Cy5": {
+            "value": "5Cy5",
+            "text": "5' Cy5",
+            "hidden": false,
+            "formula": {
+                "C": 31,
+                "H": 38,
+                "N": 2,
+                "O": 4,
+                "P": 1
+            }
+        },
+        "5Cy55": {
+            "value": "5Cy55",
+            "text": "5' Cy5.5",
+            "hidden": false,
+            "formula": {
+                "C": 39,
+                "H": 42,
+                "N": 2,
+                "O": 4,
+                "P": 1
+            }
+        },
+        "5Cy3": {
+            "value": "5Cy3",
+            "text": "5' Cy3",
+            "hidden": false,
+            "formula": {
+                "C": 29,
+                "H": 37,
+                "N": 2,
+                "O": 4,
+                "P": 1
+            }
+        },
+        "5Cy35": {
+            "value": "5Cy35",
+            "text": "5' Cy3.5",
+            "hidden": false,
+            "formula": {
+                "C": 37,
+                "H": 40,
+                "N": 2,
+                "O": 4,
+                "P": 1
+            }
+        },
+        "AmC12": {
+            "value": "AmC12",
+            "text": "5' Aminolink C12",
+            "hidden": false,
+            "formula": {
+                "C": 12,
+                "H": 26,
+                "N": 1,
+                "O": 3,
+                "P": 1
+            }
+        },
+        "AmC6": {
+            "value": "AmC6",
+            "text": "5' Aminolink C6 TFA",
+            "hidden": false,
+            "formula": {
+                "C": 6,
+                "H": 14,
+                "N": 1,
+                "O": 3,
+                "P": 1
+            }
+        },
+        "HxC6": {
+            "value": "HxC6",
+            "text": "5' Hexynyl (adds terminal alkyne group)",
+            "hidden": false,
+            "formula": {
+                "C": 6,
+                "H": 9,
+                "O": 3,
+                "P": 1
+            }
+        },
+        "Biotin": {
+            "value": "Biotin",
+            "text": "5' Biotin",
+            "hidden": false,
+            "formula": {
+                "C": 16,
+                "H": 28,
+                "N": 3,
+                "O": 5,
+                "P": 1,
+                "S": 1
+            }
+        },
+        "BioTEG": {
+            "value": "BioTEG",
+            "text": "5' Biotin TEG (triethylene glycol spacer)",
+            "hidden": false,
+            "formula": {
+                "C": 18,
+                "H": 32,
+                "N": 3,
+                "O": 8,
+                "P": 1,
+                "S": 1
+            }
+        },
+        "PCBio": {
+            "value": "PCBio",
+            "text": "5' PC Biotin (photocleavable spacer)",
+            "hidden": false,
+            "formula": {
+                "C": 25,
+                "H": 36,
+                "N": 5,
+                "O": 8,
+                "P": 1,
+                "S": 1
+            }
+        },
+        "COr560": {
+            "value": "COr560",
+            "text": "5' CalOrange 560",
+            "hidden": false,
+            "formula": {
+                "C": 31,
+                "H": 34,
+                "N": 3,
+                "O": 5,
+                "P": 1
+            }
+        },
+        "CR590": {
+            "value": "CR590",
+            "text": "CalRed 590",
+            "hidden": false,
+            "formula": {
+                "C": 33,
+                "H": 39,
+                "N": 3,
+                "O": 5,
+                "P": 1
+            }
+        },
+        "CR635": {
+            "value": "CR635",
+            "text": "CalRed 635",
+            "hidden": false,
+            "formula": {
+                "C": 41,
+                "H": 45,
+                "N": 3,
+                "O": 5,
+                "P": 1,
+                "Cl": 2
+            }
+        },
+        "DIG": {
+            "value": "DIG",
+            "text": "5' Digoxigenin",
+            "hidden": false,
+            "formula": {
+                "C": 37,
+                "H": 59,
+                "N": 2,
+                "O": 10,
+                "P": 1
+            }
+        },
+        "TET": {
+            "value": "TET",
+            "text": "5' Tetrachloro-Fluorescein (TET)",
+            "hidden": false,
+            "formula": {
+                "C": 27,
+                "H": 20,
+                "N": 1,
+                "O": 9,
+                "P": 1,
+                "Cl": 4
+            }
+        },
+        "ROX": {
+            "value": "ROX",
+            "text": "5' carboxy-X-rhodamine (ROX) with C6 amino link",
+            "hidden": false,
+            "formula": {
+                "C": 39,
+                "H": 42,
+                "N": 3,
+                "O": 7,
+                "P": 1
+            }
+        },
+        "TAM": {
+            "value": "TAM",
+            "text": "5' Carboxytetramethylrhodamine (TAMRA) with C6 amino link",
+            "hidden": false,
+            "formula": {
+                "C": 31,
+                "H": 34,
+                "N": 3,
+                "O": 7,
+                "P": 1
+            }
+        },
+        "BHQ1": {
+            "value": "BHQ1",
+            "text": "5' Black Hole Quencher 1 (BHQ-1)",
+            "hidden": false,
+            "formula": {
+                "C": 25,
+                "H": 27,
+                "N": 6,
+                "O": 6,
+                "P": 1
+            }
+        },
+        "TxRed": {
+            "value": "TxRed",
+            "text": "5' Texas Red-X with C6 amino link",
+            "hidden": false,
+            "formula": {
+                "C": 43,
+                "H": 53,
+                "N": 4,
+                "O": 10,
+                "P": 1,
+                "S": 2
+            }
+        },
+        "YakYel": {
+            "value": "YakYel",
+            "text": "5' Yakima Yellow",
+            "hidden": false,
+            "formula": {
+                "C": 30,
+                "H": 26,
+                "N": 1,
+                "O": 9,
+                "P": 1,
+                "Cl": 4
+            }
+        },
+        "IdT": {
+            "value": "IdT",
+            "text": "5' Iodo-modified dT",
+            "hidden": false,
+            "formula": {
+                "C": 10,
+                "H": 12,
+                "N": 2,
+                "O": 6,
+                "P": 1,
+                "I": 1
+            }
+        }
+    },
+    "TprimeMods": {
+        "OH": {
+            "value": "OH",
+            "text": "OH",
+            "hidden": false,
+            "formula": {
+                "H": 1
+            }
+        },
+        "phosphate": {
+            "value": "phosphate",
+            "text": "phosphate",
+            "hidden": false,
+            "formula": {
+                "P": 1,
+                "O": 3,
+                "H": 2
+            }
+        },
+        "BHQ3": {
+            "value": "BHQ3",
+            "text": "BHQ-3",
+            "hidden": false,
+            "formula": {
+                "C": 32,
+                "H": 34,
+                "N": 6,
+                "O": 4,
+                "P": 1
+            }
+        },
+        "BHQ2": {
+            "value": "BHQ2",
+            "text": "BHQ-2",
+            "hidden": false,
+            "formula": {
+                "C": 24,
+                "H": 26,
+                "N": 6,
+                "O": 8,
+                "P": 1
+            }
+        },
+        "BHQ1": {
+            "value": "BHQ1",
+            "text": "BHQ-1",
+            "hidden": false,
+            "formula": {
+                "C": 25,
+                "H": 28,
+                "N": 6,
+                "O": 7,
+                "P": 1
+            }
+        },
+        "SpacerC3": {
+            "value": "SpacerC3",
+            "text": "3' C3 Spacer",
+            "hidden": false,
+            "formula": {
+                "C": 33,
+                "H": 7,
+                "O": 4,
+                "P": 1
+            }
+        },
+        "SpacerC6": {
+            "value": "SpacerC6",
+            "text": "3' C6 spacer",
+            "hidden": false,
+            "formula": {
+                "C": 6,
+                "H": 14,
+                "O": 4,
+                "P": 1
+            }
+        },
+        "IBQ": {
+            "value": "IBQ",
+            "text": "Iowa Black Quencher FQ (guess)",
+            "hidden": false,
+            "formula": {
+                "C": 20,
+                "H": 20,
+                "N": 4,
+                "O": 6,
+                "P": 1
+            }
+        },
+        "IRQ": {
+            "value": "IRQ",
+            "text": "Iowa Black Quencher RQ (guess)",
+            "hidden": false,
+            "formula": {
+                "C": 28,
+                "H": 28,
+                "N": 10,
+                "O": 9,
+                "P": 1
+            }
+        },
+        "Dab": {
+            "value": "Dab",
+            "text": "3' Dabcyl Quencher",
+            "hidden": false,
+            "formula": {
+                "C": 21,
+                "H": 27,
+                "N": 4,
+                "O": 6,
+                "P": 1
+            }
+        },
+        "3Fam": {
+            "value": "3Fam",
+            "text": "3' Fluoroscein (FAM)",
+            "hidden": false,
+            "formula": {
+                "C": 27,
+                "H": 24,
+                "N": 1,
+                "O": 11,
+                "P": 1
+            }
+        },
+        "Pulsar650": {
+            "value": "Pulsar650",
+            "text": "3' Pulsar 650",
+            "hidden": false,
+            "formula": {
+                "C": 52,
+                "H": 58,
+                "N": 10,
+                "O": 10,
+                "P": 1,
+                "Ru": 1
+            }
+        },
+        "Quas570": {
+            "value": "Quas570",
+            "text": "3' Quasar 570",
+            "hidden": false,
+            "formula": {
+                "C": 34,
+                "H": 45,
+                "N": 3,
+                "O": 5,
+                "P": 1
+            }
+        },
+        "Quas670": {
+            "value": "Quas670",
+            "text": "3' Quasar 670",
+            "hidden": false,
+            "formula": {
+                "C": 36,
+                "H": 47,
+                "N": 3,
+                "O": 5,
+                "P": 1
+            }
+        },
+        "InvdT": {
+            "value": "InvdT",
+            "text": "3' Inverse dT",
+            "hidden": false,
+            "formula": {
+                "C": 10,
+                "H": 13,
+                "O": 7,
+                "N": 2,
+                "P": 1
+            }
+        },
+        "PropargyldC": {
+            "value": "PropargyldC",
+            "text": "3' Propargyl-5-Me-dC",
+            "hidden": false,
+            "formula": {
+                "C": 10,
+                "H": 13,
+                "O": 7,
+                "N": 2,
+                "P": 1
+            }
+        },
+        "3LNA-A": {
+            "value": "3LNA-A",
+            "text": "3' Locked Nucleic Acid - A",
+            "hidden": false,
+            "formula": {
+                "C": 11,
+                "H": 13,
+                "O": 6,
+                "N": 5,
+                "P": 1
+            }
+        },
+        "3LNA-C": {
+            "value": "3LNA-C",
+            "text": "3' Locked Nucleic Acid - C",
+            "hidden": false,
+            "formula": {
+                "C": 10,
+                "H": 13,
+                "O": 7,
+                "N": 3,
+                "P": 1
+            }
+        },
+        "3LNA-G": {
+            "value": "3LNA-G",
+            "text": "3' Locked Nucleic Acid - G",
+            "hidden": false,
+            "formula": {
+                "C": 11,
+                "H": 13,
+                "O": 7,
+                "N": 5,
+                "P": 1
+            }
+        },
+        "3LNA-T": {
+            "value": "3LNA-T",
+            "text": "3' Locked Nucleic Acid - T",
+            "hidden": false,
+            "formula": {
+                "C": 11,
+                "H": 14,
+                "O": 8,
+                "N": 2,
+                "P": 1
+            }
+        },
+        "3BioTEG": {
+            "value": "3BioTEG",
+            "text": "3' Biotin TEG (triethylene glycol spacer)",
+            "hidden": false,
+            "formula": {
+                "C": 22,
+                "H": 40,
+                "N": 3,
+                "O": 10,
+                "P": 1,
+                "S": 1
+            }
+        }
+    }
+}

@@ -1,18 +1,38 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>Hello World!</title>
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+<html lang="en">
 
-    <!-- You can also require other files to run in this process -->
-    <script src="./renderer.js"></script>
-  </body>
+<head>
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'">
+  <title>Print Preview via IPC</title>
+  <link href="./renderer.css" rel="stylesheet" type="text/css" />
+  <script type='text/javascript' src="./renderer.js"></script>
+
+</head>
+
+<body>
+  <h1 class='noPrint'>Developing Print Preview</h1>
+  <p class='noPrint'>Open the developer tools to see the IPC in action.</p>
+  <div class='flex-center noPrint'>
+  
+  <button onclick="ShowDiv('Elements')">Chemical Elements</button>
+  <button onclick="ShowDiv('AA-Mods')">Peptide Modifications</button>
+  <button onclick="ShowDiv('PepTermMods')">Peptide Terminal Modifications</button>
+  <button onclick="ShowDiv('NA-Mods')">Oligonucleotide Modifications</button>
+  <button onclick="ShowDiv('NATermMods')">5'/3' Modifications</button>
+
+  </div>
+
+
+
+
+  <div class='printDiv' id='Elements'></div>
+  <div class='printDiv' id='AA-Mods'></div>
+  <div class='printDiv' id='PepTermMods'></div>
+  <div class='printDiv' id='NA-Mods'></div>
+  <div class='printDiv' id='NATermMods'></div>
+
+
+</body>
+
 </html>

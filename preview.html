@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; frame-src 'self' file: data: blob:;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Print Preview</title>
+    <link href="./preview-renderer.css" rel="stylesheet" type="text/css" />
+    <script type='text/javascript' src="./preview-renderer.js"></script>
+
+</head>
+
+<body>
+    <div id="preview-root">
+        <div class="flex-contain">
+            <div style="background-color: rgb(247,247,247)">
+                <div id="print-sidebar" class="menu-container noPrint">
+                    <div id="headerContainer">
+                        <h1 class="preview-h1 noPrint">Print</h1>
+                    </div>
+                    <div id="container" class="print-options">
+                        <form id="print-selection" onsubmit="return false;" class="printForm">
+                            <div class="pF1">
+                                <h2 class="preview-h2"><label for="printers">Printer</label></h2>
+                                <div class="pF2">
+                                    <select id="printers" class="pF-select"></select>
+                                </div>
+                            </div>
+                            <div class="pF1">
+                                <h2 class="preview-h2"><label for="copies">Copies</label></h2>
+                                <div class="pF3">
+                                    <input type="number" step="1" min="1" max="99" id="copies" value="1" class="pF-copies">
+                                </div>
+                            </div>
+                            <div class="pF1">
+                                <h2 class="preview-h2"><label for="layout-group">Layout</label></h2>
+                                <div role="radiogroup" id="layout-group" class="pF4">
+                                    <div class="pF5">
+                                        <div class="pF6 pF6c">
+                                            <input class="pF-layout" type="radio" id="optionPortrait" name="layout-group" value="Portrait" checked onchange="rePrint(this)">
+                                            <span class="pF-layout-span"></span>
+                                            <label for="optionPortrait" class="pF-layout-label">Portrait</label>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="pF5">
+                                        <div class="pF6 pF6c">
+                                            <input class="pF-layout" type="radio" id="optionLandscape" name="layout-group" value="Landscape" onchange="rePrint(this)">
+                                            <span class="pF-layout-span"></span>
+                                            <label for="optionLandscape" class="pF-layout-label">Landscape</label>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pF1">
+                                <h2 class="preview-h2"><label for="range-group">Pages</label></h2>
+                                <div role="radiogroup" id="range-group" class="pF4">
+                                    <div class="pF5">
+                                        <div class="pF6 pF6c">
+                                            <input class="pF-layout" type="radio" id="rangeAll" name="range-group" value="All" checked onchange="rePrint(this)">
+                                            <span class="pF-layout-span"></span>
+                                            <label for="rangeAll" class="pF-layout-label">All</label>
+                                        </div>
+                                    </div>
+                                    <div class="pF5">
+                                        <div class="pF6">
+                                            <input class="pF-layout" type="radio" id="custom-range" name="range-group" value="custom" onchange="rePrint(this)">
+                                            <span class="pF-layout-span"></span>
+                                            <label for="custom-range" class="pF-layout-label2">Custom</label>
+                                        </div>
+                                        <div class="pF6b">
+                                            <div class="pF6c">
+                                                <input id="printRange" placeholder="e.g. 1-5, 8, 11-13" tabindex="-1" spellcheck="false" class="pF-range" type="text" value onchange="rePrint(this)">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pF1">
+                                <h2 class="preview-h2"><label for="paper-size">Paper size</label></h2>
+                                <div class="pF2">
+                                    <select id="paper-size" class="pF-select" onchange="rePrint(this)">
+                                        <option value="Letter" selected>Letter</option>
+                                        <option value="Legal">Legal</option>
+                                        <option value="A3">A3</option>
+                                        <option value="A4">A4</option>
+                                        <option value="A5">A5</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="pF1a">
+                                <h2 class="preview-h2">Options</h2>
+                                <div role="group">
+                                    <div class="pF7">
+                                        <div class="pF6a pF7a">
+                                            <input class="pF-checkbox" id="backgrounds-checkbox" type="checkbox" value="true" checked onchange="rePrint(this)">
+                                            <span class="pF-checkbox-span"></span>
+                                            <label for="backgrounds-checkbox" class="pF6a pF-checkbox-label">Background graphics</label>
+                                        </div>
+                                    </div>
+                                    <!--<div class="pF7">
+                                        <div class="pF6a pF7a">
+                                            <input class="pF-checkbox" id="head-foot-checkbox" type="checkbox" value="true" checked onchange="rePrint(this)">
+                                            <span class="pF-checkbox-span"></span>
+                                            <label for="head-foot-checkbox" class="pF6a pF-checkbox-label">Headers and Footers</label>
+                                        </div>
+                                    </div>-->
+
+                                </div>
+                            </div>
+                            
+                        </form>
+
+                    </div>
+                    <div class="menu-bottom">
+                        <div class="mB1">
+                            <button id="print-button" class="printButton pB1" onclick="sendPrint()">
+                            <span class="pB-span">
+                                Print
+                            </span>
+                            </button>
+                            <button id="cancel-button" class="printButton " onclick="cancelPrint()">
+                                <span class="pB-span">
+                                    Cancel
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div id="print-window" class="preview-container">
+                <div class="pvC1">
+                    <div id ="preview-area" class="pvC2">
+                        <iframe src="" tabindex="-1" title="Preview Pane" id="pdf-viewer" name="pdf-viewer" class="pdf-viewer"></iframe>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

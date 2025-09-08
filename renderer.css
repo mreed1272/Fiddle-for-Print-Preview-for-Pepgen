@@ -1,0 +1,113 @@
+body {
+    box-sizing: border-box;
+}
+.printDiv {
+    display: block;
+    padding: 10px;
+    margin: 25px;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0, 0.3), 0px 6px 20px 0px rgba(0,0,0, 0.29);
+}
+
+.printDiv h4 {
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    page-break-before: always;
+}
+
+.printDiv table {
+    margin-right: auto;
+	margin-left: auto;
+	border-collapse: collapse;
+    font-size: 0.8em;
+}
+
+.printDiv th {
+    padding: 5px;
+	color: white;
+	border-bottom-color: rgb(32, 83, 111);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	background-color: rgb(70, 153, 215);
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(199, 224, 255), 0 0 5px rgb(32,83,111);
+}
+
+.printDiv td {
+    padding: 5px;
+	color: rgb(1, 59, 91);
+	font-family: "Courier New", Courier, monospace;
+	border-bottom-color: rgb(32, 83, 111);
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+.printDiv tr:nth-child(2n+1){
+    background-color: rgb(199, 224, 255);
+}
+
+button {
+    border: 2px outset rgb(0, 75, 141);
+	width: 250px;
+	height: 30px;
+	line-height: 1em;
+	font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	font-style: normal;
+	font-weight: normal;
+    color: lightgoldenrodyellow;
+    text-shadow: 1px 1px 3px black;
+	cursor: pointer;
+	background-color: rgb(129, 211, 239);
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only print {
+    @page {
+		@top-center {
+			content: "Print Preview";
+			font-size: 8pt;
+            font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+		}
+
+		@bottom-right {
+			content: "Page " counter(page) " of " counter(pages);
+			font-size: 8pt;
+            font-family: Trebuchet MS, Verdana, Arial, Helvetica, sans-serif;
+		}
+
+		size: auto;
+	}
+    .printDiv {
+    font-size: 12pt;
+    border: none;
+    box-shadow: none;
+    }
+
+    .noPrint {
+        display: none;
+        visibility: hidden;
+    }
+    body {
+		counter-reset: page;
+		padding: 5px;
+		page-break-before: always;
+		height: fit-content;
+		overflow: visible;
+        width: 100%;
+
+	}
+}
