@@ -1,0 +1,16 @@
+{
+  "name": "print_preview_fiddle",
+  "productName": "print_preview_fiddle",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "UPLC",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "37.2.6"
+  }
+}
